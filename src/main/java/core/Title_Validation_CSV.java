@@ -20,7 +20,7 @@ public class Title_Validation_CSV {
 		String url = null;
 		String title_expected = null;
 
-		br = new BufferedReader(new FileReader(csvFile));
+		br = new BufferedReader(new FileReader(csvFile)); 
 		WebDriver driver = new FirefoxDriver();
 		while ((line = br.readLine()) != null) {
 
